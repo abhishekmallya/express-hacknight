@@ -1,6 +1,8 @@
 # Express
 Beyond just pixels.
 
+![Express GIF](assets/Express.gif ) 
+
 # Why is it important?
 Now taking this into context with 3 highlight factors of:
 * The increase in COVID-19 cases in every country made it impossible for physical therapies to take place even if it is with utmost precautions.
@@ -36,3 +38,4 @@ In the future we also wish to include an aspect of education, by providing Expre
 ## References
 [flutter.dev](https://flutter.dev/ "Flutter")<br />
 [Color Palettes](https://www.ppgpaints.com/paint-colors-for-autism#:~:text=Full%20intensity%20colors%20should%20be,neutrals%20can%20be%20very%20comforting/ "Color Palettes")<br /> 
+
