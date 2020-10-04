@@ -1,7 +1,6 @@
 # Express
 Beyond just pixels.
 
-Beyond just pixels.
 # Why is it important?
 Now taking this into context with 3 highlight factors of:
 * The increase in COVID-19 cases in every country made it impossible for physical therapies to take place even if it is with utmost precautions.
@@ -15,9 +14,11 @@ Express is a paint application which is made specifically for children with Auti
 > Parental Perspective
 >> As we are familiar with submitting art and drawing for competitions this follows a same format, where you open a new project and allow the child to experiment with all their creative skills through a set of colors and a brush. With a user friendly interface it could be very easy and knowledgeable for the child to get used to this application. Once the drawing/art is completed the parent just needs to submit it.
 On the other hand, we are even giving an option to capture a picture of existing or already made drawings on papers. They just need to select and submit it. And this puts an end to the task of the parent.
+
 > Doctor's Perspective:
 >> The doctor logs in to the app as well, through a unique generated user code and find all the submissions in the welcome page by children that come under his provision. That is not it. Express has a unique feature where the doctor also receives a full fledged report on the drawing.
 This includes a complete image processed analysis of the percentage of every color used showing the statistics of the color proportions. In addition to this it provides a complete timeline of the entire artwork. With the physical Art Therapies the doctor usually sees the end version of the drawing but here, with it's continuous screen capturing method, the doctor could just move a slider and see the artwork rightn from the first point of the color to the end version.
+
 ## Working
 Once the artwork has been submitted follwing the steps mentioned in Parental Perspectives, the image shall be processed using technologies such as Computer Vision and Color extraction. In which, the colors in the artwork are extracted and are put in a statistical manner in the form of pie charts and histograms. With most of the things happening in the back-end, our efforts are on reducing the time span for the prcoessing to take place and provide accurate and reliable results.
 These statistics will be put in the form of a report with again a user friendly interface. So that it is very easy to interpret the data provided and for easier understanding.
