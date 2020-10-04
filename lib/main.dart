@@ -5,16 +5,14 @@ import 'services/authentication.dart';
 import 'screens/root_page.dart';
 import 'screens/home.dart';
 import 'package:flutter_screen_scaler/flutter_screen_scaler.dart';
+import 'screens/profile.dart';
 
 void main() {
   Paint.enableDithering = true;
-  runApp(MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: MyApp(),
-      routes: {
-        '/home': (context) => new Home(),
-        '/noInternet': (context) => new NoInternetPage(),
-      }));
+  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: MyApp(), routes: {
+    '/home': (context) => new Home(),
+    '/noInternet': (context) => new NoInternetPage(),
+  }));
 }
 
 class MyApp extends StatefulWidget {
@@ -66,6 +64,16 @@ class _MyAppState extends State<MyApp> {
               fontSize: scaler.getTextSize(7.5),
               fontWeight: FontWeight.w700,
               letterSpacing: -0.2),
+          subtitle1: TextStyle(
+              color: Colors.black,
+              fontSize: scaler.getTextSize(8.5),
+              fontWeight: FontWeight.w700,
+              letterSpacing: -0.2),
+          subtitle2: TextStyle(
+              color: Colors.black,
+              fontSize: scaler.getTextSize(5.5),
+              fontWeight: FontWeight.w500,
+              letterSpacing: 0.2),
         ),
       ),
       home: SplashScreen(
@@ -73,7 +81,7 @@ class _MyAppState extends State<MyApp> {
           navigateAfterSeconds: AfterSplash(),
           image: new Image.asset('assets/images/logo.png'),
           backgroundColor: Colors.white,
-          photoSize: 120.0),
+          photoSize: 80.0),
     );
   }
 }
@@ -81,6 +89,6 @@ class _MyAppState extends State<MyApp> {
 class AfterSplash extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new RootPage(auth: new Auth());
+    return new ProfilePage();
   }
 }
